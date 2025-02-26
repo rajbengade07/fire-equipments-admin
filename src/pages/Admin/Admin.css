@@ -1,0 +1,98 @@
+.tab{
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    margin: 10px;
+    overflow-y: auto;
+    padding: 10px;
+    height: calc(100vh - 100px);
+
+}
+.tabss{
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    
+}
+.left{
+    width: 10%;
+    border-right:1px solid rgb(139, 139, 139) ;
+    height: 100%;
+    padding: 10px;
+}
+
+.list{
+    list-style: none;
+    height: 100%;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+    
+
+} 
+
+
+.left-items{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+}
+
+.right{
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-img{
+    display: flex;
+    justify-content: center;
+}
+
+.admin-data{
+    text-align: center;
+
+}
+
+h3 span{
+    font-weight: 400;
+}
+
+.item-btn{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.TabPanel{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #7EF9DA;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all ease-in-out 0.2s;
+    font-weight: 800;
+
+} 
+button:hover{
+    transform: scale(1.098);
+}
+.item-btn button:nth-child(2){
+    background-color:#F0EE89 ;
+}
+.item-btn button span:nth-child(2){
+   color: green;
+}
+
+button span{
+    color: green;
+}
